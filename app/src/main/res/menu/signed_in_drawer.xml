@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_home"
+            android:icon="@mipmap/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/drawer_myCompany"
+            android:icon="@mipmap/company"
+            android:title="@string/myCompany" />
+        <item
+            android:id="@+id/drawer_showcase"
+            android:icon="@mipmap/menu"
+            android:title="@string/showcase">
+
+        </item>
+        <item
+            android:id="@+id/drawer_crowdfund"
+            android:icon="@mipmap/crowdfund"
+            android:title="@string/crowdfund">
+
+        </item>
+        <item
+            android:id="@+id/drawer_projects"
+            android:icon="@drawable/bama"
+            android:title="@string/projects" />
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawer_settings"
+            android:icon="@mipmap/settings"
+            android:title="@string/action_settings" />
+    </group>
+
+</menu>

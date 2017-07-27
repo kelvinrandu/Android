@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleIndicator"></declare-styleable>
+    <declare-styleable name="CircleIndicator_ci_drawable_unselected"></declare-styleable>
+    <declare-styleable name="CircleIndicator_ci_width"></declare-styleable>
+</resources>
